@@ -1,9 +1,11 @@
 HELP.md
 target/
+.git/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-
+# Don't ignore the certs directory
+!certs/ca.pem
 /src/main/resources/application.properties
 
 ### STS ###
